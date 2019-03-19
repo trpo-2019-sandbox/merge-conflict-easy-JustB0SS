@@ -24,7 +24,6 @@ int main()
 
     printf("Array: ");
     int i = 0;
-    printf("%d", arr[i]);
     for (; i < N_ELEMENTS(arr); ++i) {
         printf(", %d", arr[i]);
     }
